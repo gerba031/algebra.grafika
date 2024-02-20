@@ -18,7 +18,66 @@
     width="500"
     height="500"
     title="title:jezero i mol">
-    
+
+    <h1>SVG ELEMENTI</h1>
+
+    <h2>Kao krug</h2>
+
+<svg width="150" height="110" xmlns="http://www.w3.org/2000/svg">
+   <circle cx="50" cy="70" r="45" stroke="red" stroke-width="4" fill="yellow" />
+   Sorry, your browser does not support inline SVG.
+</svg> 
+ <p>caption od slike</p>
+
+ <h2>Nešto drugo</h2>
+
+ <svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="100" x="100" y="50" rx="55" ry="25" fill="blue" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+
+<h2>eLIPSA</h2>
+
+<svg height="140" width="500" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="200" cy="80" rx="90" ry="30" style="fill:yellow;stroke:green;stroke-width:3" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+
+<h2>LiNIJA</h2>
+
+<svg height="210" width="300" xmlns="http://www.w3.org/2000/svg">
+  <line x1="10" y1="50" x2="200" y2="10" style="stroke:red;stroke-width:2" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+<svg height="60" width="200" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="15" fill="red">s v g !</text>
+  <text x="0" y="35" style="fill:green;font-weight:bold;stroke:red;stroke-width:1">ALGEBRA.HR</text>
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="25" style="fill:red;">
+  <set attributeName="r" to="50" begin="1s" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+<br>
+
+<canvas 
+  id="myCanvas"
+  width="200"
+  height="100"
+  style="border: 1px solid black"
+  >
+</canvas>
+<script>
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  ctx.moveTo(0, 0);
+  ctx.lineTo(200, 100);
+  ctx.stroke();
+
+</script>
 
     <p> <i>Set your username:</i> git config --global user.name "FIRST_NAME LAST_NAME" <br>
 
